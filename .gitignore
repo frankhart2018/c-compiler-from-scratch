@@ -1,0 +1,8 @@
+**/*~
+**/\#*
+**/*.o
+**/*.s
+**/a.out
+/tmp*
+/chibicc
+.DS_Store

@@ -6,3 +6,4 @@
 /tmp*
 /chibicc
 .DS_Store
+.vscode

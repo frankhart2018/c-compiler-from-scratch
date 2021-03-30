@@ -1,4 +1,6 @@
 #!/bin/bash
+total=0
+
 assert() {
   expected="$1"
   input="$2"
@@ -12,6 +14,8 @@ assert() {
     echo "$input => $expected expected, but got $actual"
     exit 1
   fi
+
+  ((total=total+1))
 
   echo ""
 }
@@ -54,4 +58,5 @@ assert 6 'a=b=3; a+b;'
 assert 3 'foo=3; foo;'
 assert 8 'foo123=3; bar=5; foo123+bar;'
 
+echo "All $total tests passed!"
 echo OK

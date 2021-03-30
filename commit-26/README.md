@@ -1,6 +1,5 @@
-# Twenty fifth commit
+# Twenty sixth commit
 
-**Message**:- Support zero-arity function definition
-**On**:- Fri Sep 4 19:01:33 2020
+**Message**:- Support function definition up to 6 parameters
+**On**:- Fri Sep 4 13:39:48 2020
 
-- Functions with args cannot be tested as of now (not added to mockasm-runtime).

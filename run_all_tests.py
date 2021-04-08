@@ -1,7 +1,7 @@
 import subprocess
 import os
 import glob
-import subprocess
+import argparse
 
 
 def run_parallel_test(paths):
@@ -20,11 +20,16 @@ def run_parallel_test(paths):
         else:
             print(f"\033[92mTest for {os.path.basename(paths[j])} passed!\033[m")
 
+
+parser = argparse.ArgumentParser(description="Chibicc commit tests")
+parser.add_argument("--num_parallel", type=int, default=4, help="Number of parallel processes to run tests in")
+args = parser.parse_args()
+
 dirs = glob.glob("commit-*")
 dirs = sorted(dirs, key=lambda x: int(x.split("-")[1]))
 base_path = os.getcwd()
 executed_tests = 0
-NUM_PARALLEL_TESTS = 4
+NUM_PARALLEL_TESTS = args.num_parallel
 
 for i in range(0, len(dirs), NUM_PARALLEL_TESTS):
     try:

@@ -1,6 +1,6 @@
 # Commits
 - [x] [commit-1](https://github.com/rui314/chibicc/commit/0522e2d77e3ab82d3b80a5be8dbbdc8d4180561c)
-- [ ] [commit-2](https://github.com/rui314/chibicc/commit/bf7081fba7d8c6b1cd8a12eb329697a5481c604e)
+- [x] [commit-2](https://github.com/rui314/chibicc/commit/bf7081fba7d8c6b1cd8a12eb329697a5481c604e)
 - [ ] [commit-3](https://github.com/rui314/chibicc/commit/a1ab0ff26f23c82f15180051204eeb6279747c9a)
 - [ ] [commit-4](https://github.com/rui314/chibicc/commit/cc5a6d978144bda90220bd10866c4fd908d07546)
 - [ ] [commit-5](https://github.com/rui314/chibicc/commit/84cfcaf98f3d19c8f0f316e22a61725ad201f0f6)

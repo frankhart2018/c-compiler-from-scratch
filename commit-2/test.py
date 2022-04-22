@@ -2,7 +2,7 @@ import subprocess
 
 
 def assert_ret(expected, input):
-    _ = subprocess.getoutput(f"./chibicc {input} > tmp.yas")
+    _ = subprocess.getoutput(f"./chibicc '{input}' > tmp.yas")
     _ = subprocess.getoutput("yamasm tmp.yas tmp")
     output = subprocess.getoutput("yamini tmp").strip()
 

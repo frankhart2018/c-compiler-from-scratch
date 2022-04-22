@@ -15,7 +15,7 @@ def run_parallel_test(paths):
 
     for j, out in enumerate(outs):
         output = str(out.stdout.read())
-        if "tests passed!" not in output:
+        if "Expected" in output:
             print(f"\033[91mTest for {os.path.basename(paths[j])} failed!\033[m")
         else:
             print(f"\033[92mTest for {os.path.basename(paths[j])} passed!\033[m")

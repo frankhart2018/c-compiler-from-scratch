@@ -1,0 +1,19 @@
+JMP %start
+%leq
+SUB
+JN %lesseq
+JZ %lesseq
+POP R0
+LOAD 0
+JMP %end
+%lesseq
+POP R0
+LOAD 1
+%end
+RET
+%start
+LOAD 3
+LOAD 2
+CALL %leq
+SHOW
+HALT

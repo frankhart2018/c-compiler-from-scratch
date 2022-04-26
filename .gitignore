@@ -9,3 +9,5 @@ chibicc
 .vscode
 .vscode/
 .idea/
+*.yas
+a.out

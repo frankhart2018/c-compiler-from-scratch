@@ -11,7 +11,7 @@
 - [x] [commit-10](https://github.com/rui314/chibicc/commit/1f9f3adf324af1432a380b41c7690834e649e346)
 - [x] [commit-11](https://github.com/rui314/chibicc/commit/482c26b536f8e5c998af6210470cd3d97a47ee9a)
 - [x] [commit-12](https://github.com/rui314/chibicc/commit/6cc1c1f0643ce0f1af0857e024a0a438ddb45853)
-- [ ] [commit-13](https://github.com/rui314/chibicc/commit/18ac283a5d19c19f1e1a7020a50fe34c2160a0f8)
+- [x] [commit-13](https://github.com/rui314/chibicc/commit/18ac283a5d19c19f1e1a7020a50fe34c2160a0f8)
 - [ ] [commit-14](https://github.com/rui314/chibicc/commit/ff8912c68e877744f8b15070e098af786e7bd296)
 - [ ] [commit-15](https://github.com/rui314/chibicc/commit/72b841508f562c65b427a502fe6b270c3717319b)
 - [ ] [commit-16](https://github.com/rui314/chibicc/commit/f5d480f139592cc2670c2b05076c39b2fd6fe9b3)

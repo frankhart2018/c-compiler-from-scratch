@@ -20,7 +20,7 @@ def assert_ret(expected, input):
     inject_code(filename="tmp.yas", code="%ret3\nLOAD 3\nRET\n", after="JMP %start")
     inject_code(filename="tmp.yas", code="%ret5\nLOAD 5\nRET\n", after="JMP %start")
 
-    _ = subprocess.getoutput("yamasm tmp.yas tmp")
+    _ = subprocess.getoutput("yamasm tmp.yas -o tmp")
     output = subprocess.getoutput("yamini tmp").strip()
 
     if output == expected:

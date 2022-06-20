@@ -3,7 +3,7 @@ import subprocess
 
 def assert_ret(input, expected):
     _ = subprocess.getoutput(f"./chibicc '{input}' > tmp.yas")
-    _ = subprocess.getoutput("yamasm tmp.yas tmp")
+    _ = subprocess.getoutput("yamasm tmp.yas -o tmp")
     output = subprocess.getoutput("yamini tmp").strip()
 
     if output == expected:

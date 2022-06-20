@@ -1,6 +1,6 @@
 # C Compiler From Scratch
 
-This is a fork of <p align="justify"><a href="https://github.com/rui314/chibicc">Chibicc</a>, which is a project by <a href="https://github.com/rui314/">Rui Uyema</a>. Chibi in Japanese means small and chibicc is thus a small C compiler.</p>
+<p align="justify">This is a fork of <a href="https://github.com/rui314/chibicc">Chibicc</a>, which is a project by <a href="https://github.com/rui314/">Rui Uyema</a>. Chibi in Japanese means small and chibicc is thus a small C compiler.</p>
 
 <p align="justify">In this version I am using a virtual machine (called <a href="https://github.com/yamini-vm/yamini">Yamini VM</a>) and its assembler <a href="https://github.com/yamini-vm/yamasm">YamASM</a> and thus have made slight modifications to the compiled assembly code.</p>
 
